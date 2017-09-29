@@ -27,6 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+            command: mocha test
 
       - save_cache:
           paths:
